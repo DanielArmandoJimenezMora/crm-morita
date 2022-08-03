@@ -1,0 +1,28 @@
+{
+  "name": "saleadminpro",
+  "version": "1.0.0",
+  "description": "Software gestor de ventas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Phi Developer",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-http": "^1.5.17",
+    "apollo-server": "^3.7.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0",
+    "graphql-tag": "^2.12.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3",
+    "react-apollo": "^3.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
