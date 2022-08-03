@@ -4,9 +4,13 @@
   "description": "Software gestor de ventas",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
-    "dev": "nodemon ."
-  },
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env =jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+    },
   "author": "Phi Developer",
   "license": "ISC",
   "dependencies": {
@@ -20,7 +24,8 @@
     "graphql-tag": "^2.12.6",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.3.3",
-    "react-apollo": "^3.1.5"
+    "react-apollo": "^3.1.5",
+    "serve": "^14.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
